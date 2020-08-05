@@ -1,0 +1,6 @@
+[submodule "fastapi-template"]
+	path = backend
+	url = https://github.com/gsc2001/fastapi-template.git
+[submodule "vuejs-template"]
+	path = frontend
+	url = https://github.com/gsc2001/vuejs-template.git
