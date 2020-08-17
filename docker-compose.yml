@@ -52,7 +52,6 @@ services:
         entrypoint: ./entrypoint.sh
         restart: unless-stopped
         volumes:
-            - web-root:/home/node/app/dist
             - ./frontend:/home/node/app
             - /home/node/app/node_modules
         environment:
